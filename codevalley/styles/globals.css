@@ -10,6 +10,14 @@ body {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #000080;
+}
+
+nav, .footer {
+  background-color: #90EE90;
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -31,7 +39,8 @@ nav {
 }
 
 nav a {
-  margin-left: 12px;
+  margin-left: 5%;
+  text-indent: -15%;
 }
 
 nav .logo {
@@ -43,7 +52,7 @@ nav .logo {
   text-align: center;
   padding: 30px 0;
   margin-top: auto;
-  color: #777;
+  color: black;
   border-top: 1px solid #eaeaea;
   position: fixed;
   left: 0;

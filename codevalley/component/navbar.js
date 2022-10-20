@@ -5,12 +5,12 @@ const Navbar = () => {
 
         <nav className='navbar'>
             <div className="logo">
-                <h1>Code Valley</h1>
+            <Link href="/"><h1>Code Valley</h1></Link>
             </div>
-            <a>Home</a>
-            <a>About</a>
-            <a>Services</a>
-            <a>Contact</a>
+            <Link href="/"><a>Home</a></Link>
+            <Link href="/about"><a>About</a></Link>
+            <Link href="/services"><a>Services</a></Link> 
+            <Link href="/contact"><a>Contact</a></Link>
         </nav>
 
     )

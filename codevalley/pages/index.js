@@ -8,7 +8,9 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-     
+      <section className='titlebox'>
+        <h1 className='title'>Code Valley</h1>
+      </section>
     </div>
   )
 }

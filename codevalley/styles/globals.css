@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Edu VIC WA NT Beginner', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -11,22 +11,9 @@ body {
 }
 
 body {
-  background-color: #000080;
-}
+  background-color: rgba(0, 0, 0, 0.856);
 
-nav, .footer {
-  background-color: #90EE90;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */
 
 
 nav {
@@ -36,11 +23,14 @@ nav {
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
+  background-image: url("../public/logopic.jpg");
+  color: white;
 }
 
 nav a {
   margin-left: 5%;
   text-indent: -15%;
+  color: white;
 }
 
 a {
@@ -62,12 +52,13 @@ nav .logo {
   text-align: center;
   padding: 30px 0;
   margin-top: auto;
-  color: black;
+  color: white;
   border-top: 1px solid #eaeaea;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  background-image: url("../public/logopic.jpg");
 }
 
 .titlebox {

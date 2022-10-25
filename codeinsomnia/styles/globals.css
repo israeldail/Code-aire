@@ -43,6 +43,7 @@ ul, li {
   list-style: none;
   text-align: left;
   margin-top: 5%;
+ 
 }
 
 nav .logo {
@@ -82,9 +83,9 @@ nav .logo {
   margin: auto;
   text-align: center;
   color: white;
-  background-color: #243447;
+  background-color: rgba(36, 52, 71, 0.5);
   height: 3rem;
-  width: 50%;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,21 +98,37 @@ nav .logo {
   display: flex;
   align-items: left;
   justify-content: left;
-  margin: auto;
+  margin: 1%;
   margin-top: 2%;
   text-align: left;
   color: white;
-  background-color: #243447;
+  background-color: rgba(36, 52, 71, 0.5);
   border: 1px solid white;
+  margin-bottom: 2rem;
+}
+
+.web-services-body1 {
+  height: 20rem;
+  width: 50%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 1%;
+  margin-top: 2%;
+  text-align: left;
+  color: white;
+  background-color: rgba(36, 52, 71, 0.5);
+  border: 1px solid white;
+  margin-bottom: 2rem;
 }
 
 .data-services {
   margin: auto;
   text-align: center;
   color: white;
-  background-color: #243447;
+  background-color: rgba(36, 52, 71, 0.5);
   height: 3rem;
-  width: 50%;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,21 +142,37 @@ nav .logo {
   display: flex;
   align-items: left;
   justify-content: left;
-  margin: auto;
+  margin: 1%;
   margin-top: 2%;
   text-align: left;
   color: white;
-  background-color: #243447;
+  background-color: rgba(36, 52, 71, 0.5);
   border: 1px solid white;
+  margin-bottom: 2rem;
+}
+
+.data-services-body1 {
+  height: 20rem;
+  width: 50%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 1%;
+  margin-top: 2%;
+  text-align: left;
+  color: white;
+  background-color: rgba(36, 52, 71, 0.5);
+  border: 1px solid white;
+  margin-bottom: 2rem;
 }
 
 .automation-services {
   margin: auto;
   text-align: center;
   color: white;
-  background-color: #243447;
+  background-color: rgba(36, 52, 71, 0.5);
   height: 3rem;
-  width: 50%;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,15 +186,95 @@ nav .logo {
   display: flex;
   align-items: left;
   justify-content: left;
-  margin: auto;
+  margin: 1%;
   margin-top: 2%;
   text-align: left;
   color: white;
-  background-color: #243447;
+  background-color: rgba(36, 52, 71, 0.5);
   border: 1px solid white;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
+
+}
+
+.automation-services-body1 {
+  height: 20rem;
+  width: 50%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 1%;
+  margin-top: 2%;
+  text-align: left;
+  color: white;
+  background-color: rgba(36, 52, 71, 0.5);
+  border: 1px solid white;
+  margin-bottom: 2rem;
+
+}
+
+.qanda-services {
+  margin: auto;
+  text-align: center;
+  color: white;
+  background-color: rgba(36, 52, 71, 0.5);
+  height: 3rem;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  border: 1px solid white;
+}
+
+.qanda-services-body {
+  height: 20rem;
+  width: 50%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 1%;
+  margin-top: 2%;
+  text-align: left;
+  color: white;
+  background-color: rgba(36, 52, 71, 0.5);
+  border: 1px solid white;
+  margin-bottom: 2rem;
+
+}
+
+.qanda-services-body1 {
+  height: 20rem;
+  width: 50%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 1%;
+  margin-top: 2%;
+  text-align: left;
+  color: white;
+  background-color: rgba(36, 52, 71, 0.5);
+  border: 1px solid white;
+  margin-bottom: 2rem;
+
 }
 
 .service-body {
   margin-bottom: 10%;
+}
+
+.service-list {
+  font-size: 48px;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.service-paragraph {
+  margin: 0;
+  font-size: 20px;
+}
+
+.table-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

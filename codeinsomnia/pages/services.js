@@ -1,5 +1,11 @@
+import Head from 'next/head'
+
 const Services = () => {
   return (
+    <>
+    <Head>
+      <title>Code Insomnia | Services</title>
+    </Head>
     <div className="service-body">
 
       <section className='titlebox'>
@@ -37,6 +43,7 @@ const Services = () => {
       </section>
 
     </div>
+    </>
   )
 }
 

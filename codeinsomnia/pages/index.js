@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        
+        <title>Coding Insomnia | Homepage</title>
       </Head>
       <div>
         <section className='titlebox'>

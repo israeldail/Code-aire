@@ -1,13 +1,20 @@
+import Head from 'next/head'
+
 const About = () => {
-    return(
-        <div>
-            <div>
+  return (
+    <>
+    <Head>
+      <title>Code Insomnia | About</title>
+    </Head>
+    <div>
+
       <section className='titlebox'>
         <h1 className='title'>About</h1>
       </section>
+
     </div>
-        </div>
-    )
+    </>
+  )
 }
 
 export default About;

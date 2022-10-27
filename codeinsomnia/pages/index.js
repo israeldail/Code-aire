@@ -21,10 +21,10 @@ export default function Home() {
       <div>
         <section className='home-info'>
           <ul>
-        <li className='Home-title'>Who We Are:</li>
-        <p>We are a Software Development Company that is based in Miami, we embarked on this journey to bring more creativity to the industry & capture  ideas by bring them to life. 
-Our mission is to ignite a culture movement that drives & inpire people to be more creative by bring innovation that  will change the world.</p>
-</ul>
+            <li className='Home-title'>Who We Are:</li>
+            <p>We are a Software Development Company that is based in Miami, we embarked on this journey to bring more creativity to the industry & capture  ideas by bring them to life.
+              Our mission is to ignite a culture movement that drives & inpire people to be more creative by bring innovation that  will change the world.</p>
+          </ul>
         </section>
       </div>
 
@@ -32,21 +32,27 @@ Our mission is to ignite a culture movement that drives & inpire people to be mo
       <div>
         <section className='home-info'>
           <ul>
-        <li className='Home-title'>Who We Are:</li>
-        <p>We are a Software Development Company that is based in Miami, we embarked on this journey to bring more creativity to the industry & capture  ideas by bring them to life. 
-Our mission is to ignite a culture movement that drives & inpire people to be more creative by bring innovation that  will change the world.</p>
-</ul>
+            <li className='Home-title'>Who We Serve:</li>
+            <p>We are a Software Development Company that is based in Miami, we embarked on this journey to bring more creativity to the industry & capture  ideas by bring them to life.
+              Our mission is to ignite a culture movement that drives & inpire people to be more creative by bring innovation that  will change the world.
+              <div className='button-main'>
+                <section>
+                  <button className='button'> Start Here</button>
+                </section>
+              </div> </p>
+          </ul>
         </section>
+
       </div>
 
 
       <div>
         <section className='home-info'>
           <ul>
-        <li className='Home-title'>Who We Are:</li>
-        <p>We are a Software Development Company that is based in Miami, we embarked on this journey to bring more creativity to the industry & capture  ideas by bring them to life. 
-Our mission is to ignite a culture movement that drives & inpire people to be more creative by bring innovation that  will change the world.</p>
-</ul>
+            <li className='Home-title'>Who We Are:</li>
+            <p>We are a Software Development Company that is based in Miami, we embarked on this journey to bring more creativity to the industry & capture  ideas by bring them to life.
+              Our mission is to ignite a culture movement that drives & inpire people to be more creative by bring innovation that  will change the world.</p>
+          </ul>
         </section>
       </div>
     </>

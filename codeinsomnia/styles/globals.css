@@ -278,3 +278,25 @@ nav .logo {
   align-items: center;
   justify-content: center;
 }
+.home-info {
+color: white;
+height: 20rem;
+  width: 50%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 1%;
+  margin-top: 2%;
+  text-align: left;
+  border: 1px solid white;
+  margin-bottom: 2rem;
+  position: relative;
+  transform: translateX(260px);
+  opacity: 1;
+  transition: 5s all ease;
+  background-color: rgba(36, 52, 71, 0.5);
+}
+.home-info{
+  transform: translateY(0);
+  opacity: 1;
+}

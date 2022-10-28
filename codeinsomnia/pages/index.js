@@ -7,10 +7,10 @@ import Public from '../public/3.jpg'
 
 export default function Home() {
   return (
-    <>
-    <div>
-      <Image src= {3} alt='/' />
-    </div>
+    <div className='Home-page'>
+    
+     
+   
       <Head>
         <title>Coding Insomnia | Homepage</title>
       </Head>
@@ -18,8 +18,7 @@ export default function Home() {
         <section className='titlebox'>
           <h1 className='title'>Code Insomnia</h1>
         </section>
-    
-
+   
      
         <section className='home-info'>
           <ul>
@@ -57,6 +56,6 @@ export default function Home() {
           </ul>
         </section>
       </div>
-    </>
+    </div>
   )
 }

@@ -41,11 +41,6 @@ export default function Home() {
         </section>
 
       </div>
-      <div className='button-main'>
-                <section>
-                  <button className='button'> Start Here</button>
-                </section>
-              </div> 
 
       <div>
         <section className='home-info'>
@@ -56,6 +51,12 @@ export default function Home() {
           </ul>
         </section>
       </div>
+
+      <div className='button-main'>
+                <section>
+                  <button className='button'> Start Here</button>
+                </section>
+              </div> 
     </div>
   )
 }

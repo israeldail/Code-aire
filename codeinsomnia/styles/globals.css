@@ -304,9 +304,14 @@ height: 20rem;
   opacity: 1;
 }
 .button{
-  color:white;
+  color: white;
   background-color: rgba(0, 0, 0, 0.856);
+  height: 50px;
+  width: 100%;
+  margin-bottom: 5%;
 }
+
+
 .Home-page{
   background-image:  url('../public/1.jpg');
   background-repeat: no-repeat;
@@ -365,4 +370,25 @@ height: 20rem;
   justify-content: space-between;
 flex-direction: row;
 flex-wrap: wrap;
+}
+
+
+@media only screen and (orientation: landscape) {
+  .button {
+    color: white;
+  background-color: rgba(0, 0, 0, 0.856);
+  height: 50px;
+  width: 100%;
+  margin-bottom: 8%;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .button {
+    color: white;
+  background-color: rgba(0, 0, 0, 0.856);
+  height: 50px;
+  width: 100%;
+  margin-bottom: 25%;
+  }
 }

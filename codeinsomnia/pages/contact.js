@@ -6,11 +6,17 @@ const Contact = () => {
       <Head>
         <title>Code Insomnia | Contact</title>
       </Head>
-      <div>
+      <form>
         <section className='titlebox'>
-          <h1 className='title'>Contact</h1>
+          <h1 className='title'>Contact Us</h1>
         </section>
-      </div>
+        <main className="contact-form">
+          <input className="contact-input" type="text" placeholder="first name" />
+          <input className="contact-input" type="text" placeholder="last name" />
+          <input className="contact-input" type="text" placeholder="email" />
+          <input className="contact-input" type="text" placeholder="phone number" />
+        </main>
+      </form>
     </>
   )
 }

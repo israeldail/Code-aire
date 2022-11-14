@@ -375,7 +375,23 @@ flex-wrap: wrap;
 /* scroll div */
 
 .scroll-top {
-  cursor: move;
+  cursor: pointer;
+}
+
+/* contact form inputs */
+
+.contact-form {
+  height: 600px;
+  width: 600px;
+  margin: auto;
+}
+
+.contact-input {
+  margin: 1rem;
+  font-size: 48px;
+  border-radius: 20px;
+  text-align: center;
+  border: solid 5px grey;
 }
 
 

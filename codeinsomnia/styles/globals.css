@@ -394,6 +394,12 @@ flex-wrap: wrap;
   border: solid 5px grey;
 }
 
+/* contact form outline */
+.contact-page {
+  border: solid 5px white;
+
+}
+
 
 @media only screen and (orientation: landscape) {
   .button {

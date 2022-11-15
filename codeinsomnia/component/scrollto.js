@@ -8,15 +8,16 @@ export const ScrollTop = () => {
             }}
                 style={{
                     position: 'fixed',
-                    padding: '1rem 2rem',
+                    padding: '5px 25px',
                     fontSize: '15px',
-                    bottom: '40px',
-                    right: '40px',
+                    bottom: '25px',
+                    right: '25px',
                     backgroundColor: 'black',
                     color: '#fff',
                     textAlign: 'center',
                     marginBottom: '25%',
-                    borderRadius: '15%'
+                    borderRadius: '100%',
+                    opacity: '75%'
                 }}>
                 <h1>TOP</h1>
             </div>

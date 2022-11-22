@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <>
       <Head>
-        <title>Code Insomnia | Services</title>
+        <title>Code-aire | Services</title>
       </Head>
       <div className="service-body">
 

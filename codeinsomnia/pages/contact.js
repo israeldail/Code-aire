@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Code Insomnia | Contact</title>
+        <title>Code-aire | Contact</title>
       </Head>
       <form>
         

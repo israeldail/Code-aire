@@ -299,8 +299,8 @@ height: 20rem;
   transition: 5s all ease;
   background-color: rgba(36, 52, 71, 0.5);
 }
-.home-info{
-  transform: translateY(0);
+.home-info:hover{
+  transform: translateX(0);
   opacity: 1;
 }
 .button{

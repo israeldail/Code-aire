@@ -400,6 +400,14 @@ flex-wrap: wrap;
 
 }
 
+.contact-popup {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+
+}
+
 
 @media only screen and (orientation: landscape) {
   .button {

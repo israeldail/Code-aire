@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 const Services = () => {
   return (
@@ -9,79 +10,46 @@ const Services = () => {
       <div className="service-body">
 
         <section className='titlebox'>
-          <h1 className='title'>Services</h1>
+          <h3 className='title'>Technologies of proficiency</h3>
         </section>
 
-        <section className="web-services">
-          <h3>Web and Mobile Development</h3>
-        </section>
-        <div className='table-div'>
-          <section className="web-services-body">
-            <ul>
-              <li className='service-list'>React Native</li>
-              <p className='service-paragraph'>We made a few projects using React Native such as Fiver Star Dating App </p>
-              <li className='service-list'>Python</li>
-              <p className='service-paragraph'>We made a few projects using React Native such as Fiver Star Dating App </p>
-              <li className='service-list'>Next.JS</li>
-              <p className='service-paragraph'>We made a few projects using React Native such as Fiver Star Dating App </p>
-              <li className='service-list'>ReactJS</li>
-              <p className='service-paragraph'>We made a few projects using React Native such as Fiver Star Dating App </p>
-            </ul>
-          </section>
-          <section className='web-services-body1'>
-
-          </section>
-        </div>
-
-
-        <section className="data-services">
-          <h3>Data Analysis</h3>
+        <section>
+          <div className='html-stack'>
+            <Image
+            src={'/html.png'}
+            width={500}
+            height={500}
+             />
+             <Image
+            src={'/java-script.png'}
+            width={500}
+            height={500}
+             />
+             <Image
+            src={'/css-logo.png'}
+            width={500}
+            height={500}
+             />
+          </div>
         </section>
 
-        <div className='table-div'>
-          <section className="data-services-body">
-            <ul>
-              <li className='service-list'>Python</li>
-            </ul>
-          </section>
+        <section className='languages-container'>
+          <div className='html-stack'>
+            <Image
+            src={"/react-native-logo.png"}
+            height={500}
+            width={500}
+            />
 
-          <section className='data-services-body1'>
+            <Image
+            src={"/python-logo.png"}
+            height={500}
+            width={500}
+            />
 
-          </section>
-        </div>
-
-        <section className="automation-services">
-          <h3>Automation Services</h3>
+          </div>
         </section>
-
-        <div className='table-div'>
-          <section className="automation-services-body">
-            <ul>
-              <li className='service-list'>Python</li>
-            </ul>
-          </section>
-
-          <section className='automation-services-body1'>
-
-          </section>
-        </div>
-
-        <section className="qanda-services">
-          <h3>Quality Assurance</h3>
-        </section>
-
-        <div className='table-div'>
-          <section className="qanda-services-body">
-            <ul>
-              <li className='service-list'>Python</li>
-            </ul>
-          </section>
-
-          <section className='qanda-services-body1'>
-
-          </section>
-        </div>
-
+        
       </div>
     </>
   )

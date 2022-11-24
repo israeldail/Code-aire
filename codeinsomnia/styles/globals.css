@@ -417,6 +417,14 @@ flex-wrap: wrap;
   color: black;
 }
 
+.about-paragraph {
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* about page container for Austin and I, this will be our description on the about page. */
+
+
 
 @media only screen and (orientation: landscape) {
   .button {

@@ -5,9 +5,7 @@ export default function Aboutcards({about}){
         <section>
             <image src="" />
             <div>
-                <h2>{job.title}</h2>
-                <p>{company}</p>
-                <p>{company}</p>
+                hello
             </div>
         </section>
     )

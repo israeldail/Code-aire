@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Popup from 'reactjs-popup';
-
-
+import React from 'react';
 
 
 const About = () => {
@@ -46,14 +45,9 @@ const About = () => {
         population, more importantly our society.
         <br/>
         <br/>
-        That is our collective vision and motivation, now time to present the founders of this company respectively.
+        <span className='company-founded'>Code-aire was founded in 2022, wait for big things ahead. </span>
          </p>
       </div>
-
-      <div className='israel-container'>
-
-      </div>
-      
     </>
   )
 }

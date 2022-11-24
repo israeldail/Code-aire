@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Teko', sans-serif;
   font-size: 24px;
+  
 }
 
 * {
@@ -61,11 +62,12 @@ nav .logo {
   margin-top: auto;
   color: white;
   border-top: 1px solid #eaeaea;
-  position: fixed;
+  position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1;
   width: 100%;
   background-image: url("../public/logopic.jpg");
+  
 }
 
 .titlebox {
@@ -365,11 +367,17 @@ height: 20rem;
   font-size: 18px;
 }
 
+.button {
+  margin-top: 5rem;
+  
+}
+
 .container{
   display: flex;
   justify-content: space-between;
-flex-direction: row;
-flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 25rem;
 }
 
 /* scroll div */
@@ -397,8 +405,26 @@ flex-wrap: wrap;
   border: solid 5px grey;
 }
 
+.textarea {
+  width: 92%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 1rem;
+  padding-bottom: 4rem;
+  margin-bottom: auto;
+  word-break: break-all
+}
+
 /* contact form outline */
 .contact-page {
+  height: 100%;
+  width: 100%;
   border: solid 5px white;
 
 }
@@ -425,7 +451,12 @@ flex-wrap: wrap;
   margin: 0 auto;
   padding: 20px;
 }
-/* about page container for Austin and I, this will be our description on the about page. */
+
+.company-founded {
+  margin-left: 20%;
+
+}
+
 
 
 
@@ -446,5 +477,15 @@ flex-wrap: wrap;
   height: 50px;
   width: 100%;
   margin-bottom: 25%;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 35rem;
   }
 }

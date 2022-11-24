@@ -408,6 +408,15 @@ flex-wrap: wrap;
 
 }
 
+.footer-companyname {
+  color: white;
+  
+}
+
+.footer-companyname:hover {
+  color: black;
+}
+
 
 @media only screen and (orientation: landscape) {
   .button {

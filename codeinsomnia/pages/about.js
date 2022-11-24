@@ -39,6 +39,7 @@ const About = () => {
           </Popup>
         </div>
       </div>
+      <p className='about-paragraph'>Code-aire is led by two motivated people who share a dream. A dream of prosperity, freedom, and creativity.  </p>
     </>
   )
 }

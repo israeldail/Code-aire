@@ -93,7 +93,7 @@ nav .logo {
 }
 
 .web-services-body{
-  height: 20rem;
+  height: 100%;
   width: 50%;
   display: flex;
   align-items: left;
@@ -381,14 +381,17 @@ flex-wrap: wrap;
 /* contact form inputs */
 
 .contact-form {
-  height: 600px;
-  width: 600px;
-  margin: auto;
+  height: 100%;
+  width: 35%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .contact-input {
   margin: 1rem;
-  font-size: 48px;
+  font-size: 36px;
   border-radius: 20px;
   text-align: center;
   border: solid 5px grey;

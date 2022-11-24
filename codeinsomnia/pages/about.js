@@ -38,7 +38,7 @@ const About = () => {
             </div>
           </Popup>
         </div>
-        <p className='about-paragraph'>Code-aire is led by two motivated people who share a dream. A dream of prosperity, freedom, and creativity. <br/> 
+        <p className='paragraph'>Code-aire is led by two motivated people who share a dream. A dream of prosperity, freedom, and creativity. <br/> 
         Our goal is to make web applications that can change the way people live on a daily basis and just make the world <br/>
         a friendlier feeling place in general. We plan on acheiving this by releasing our own original products, the websites and <br/>
         applications we make will be purely for the mutual satisfaction it will bring to both our team and <em>you</em> the general <br/>

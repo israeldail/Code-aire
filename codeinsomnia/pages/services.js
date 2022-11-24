@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Services = () => {
   return (
@@ -49,6 +50,19 @@ const Services = () => {
 
           </div>
         </section>
+
+        <hr style={{width: "95%"}}/>
+
+        <section className='fade-in-text'>
+          <h1 className='title'>Full Stack Development</h1>
+          <p className='paragraph-services'>Here at Code-aire we specialize in full stack development. We have growing experience with making websites <br/>
+          on front-end and back-end. Our passion and willigness to learn does not end there however, We have taken the initiative to <br/>
+          take on Python projects such as data analysis and automation. Our hard work is only matched by our passion that we bring to the table. <br/>
+          We will be showcasing all of our projects both client requested and our very own Code-aire projects in our portfolio section. <br/>
+          If you have not seen our portfolio page we highly encourage you to take a look <Link href="/portfolio"><a style={{color: "blue"}}>here</a></Link> </p>
+        </section>
+
+
         
       </div>
     </>

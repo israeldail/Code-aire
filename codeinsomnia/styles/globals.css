@@ -280,7 +280,7 @@ height: 20rem;
   color: black;
 }
 
-.about-paragraph {
+.paragraph {
   color: white;
   margin: 0 auto;
   padding: 20px;
@@ -289,6 +289,46 @@ height: 20rem;
 .company-founded {
   margin-left: 20%;
 
+}
+
+.paragraph-services {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  
+}
+
+.fade-in-text {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 

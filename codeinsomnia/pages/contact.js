@@ -13,13 +13,13 @@ const Contact = () => {
         </section>
         <div className="contact-page">
         <main className="contact-form">
-          <input className="contact-input" type="text" placeholder="first name" />
-          <input className="contact-input" type="text" placeholder="last name" />
-          <input className="contact-input" type="text" placeholder="email" />
-          <input className="contact-input" type="text" placeholder="phone number" />
-          <textarea className="textarea" type="text" placeholder="type message here"/>
+          <input className="contact-input" type="text" placeholder="first name" required />
+          <input className="contact-input" type="text" placeholder="last name" required />
+          <input className="contact-input" type="text" placeholder="email" required />
+          <input className="contact-input" type="text" placeholder="phone number" required />
+          <textarea className="textarea" type="text" placeholder="type message here" required />
 
-          <button className="button">Send Email</button>
+          <button type="submit" className="button">Send Email</button>
         </main>
         </div>
       </form>

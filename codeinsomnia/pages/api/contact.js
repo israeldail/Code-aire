@@ -6,12 +6,13 @@ const handler = async (req, res) => {
   
   if(req.method === "POST") {
     const data = req.body;
-    if(!data.name || !data.user_email || !data.phone_number || !data.msg){
+    if(!data.name || !data.user_email || !data.msg || data.subject){
       return res.status(400).json({ message: 'bad request' })
     }
     try {
       await transporter.sendMail({
         ...mailOptions,
+        subject: data.subject,
         text: "This is test string",
         html: "<h1>Test Title</h1><p>some body text</p>"
       });
@@ -24,7 +25,7 @@ const handler = async (req, res) => {
   }
 
 
-  return res.status(400).json({ message: 'bad request' })
+  return res.status(400).json({ message: 'BAD request' })
 }
 
 export default handler;

@@ -2,14 +2,14 @@ import Head from "next/head";
 import { useState } from "react";
 import { sendContactForm } from "../lib/api";
 
-const initValues = {name:"", user_email:"", phone_number:"", msg:""}
+const initValues = {name:"", user_email:"", msg:"", subject:""}
 
 const initState = {values: initValues}
 
 const Contact = () => {
   const [state, setState] = useState(initState)
 
-  const {values, isLoading} = state
+  const values = state
   
   const handleChange = ({target}) => setState((prev) => ({
     ...prev,
@@ -23,7 +23,7 @@ const Contact = () => {
     setState((prev) => ({
       ...prev,
     }));
-    await sendContactForm(values)
+    await sendContactForm(values);
   }
 
 
@@ -41,12 +41,10 @@ const Contact = () => {
         <main className="contact-form">
           <input className="contact-input" type="text" placeholder="name" name="name" value={values.name} onChange={handleChange} required />
           <input className="contact-input" type="text" placeholder="email" name="user_email" value={values.user_email} onChange={handleChange} required />
-          <input className="contact-input" type="text" placeholder="phone number" name="phone_number" value={values.phone_number} onChange={handleChange
-          } required />
+          <input className="contact-input" type="text" placeholder="subject" name="subject" value={values.subject} onChange={handleChange} required />
           <textarea className="textarea" type="text" placeholder="type message here" name="msg" value={values.msg} onChange={handleChange} required />
 
           <button 
-          type="submit" 
           className="button" 
           onClick={onSubmit}
           >

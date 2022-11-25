@@ -3,10 +3,11 @@
 import { mailOptions, transporter } from "../../config/nodemailer";
 
 const handler = async (req, res) => {
-  
+  console.log(req.body)
+
   if(req.method === "POST") {
     const data = req.body;
-    if(!data.name || !data.user_email || !data.msg || data.subject){
+    if(!data.name || !data.user_email || !data.subject || !data.msg){
       return res.status(400).json({ message: 'bad request' })
     }
     try {
@@ -25,7 +26,7 @@ const handler = async (req, res) => {
   }
 
 
-  return res.status(400).json({ message: 'BAD request' })
+return res.status(400).json({ message: 'BAD request' })
 }
 
 export default handler;

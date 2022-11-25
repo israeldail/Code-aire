@@ -209,9 +209,16 @@ height: 20rem;
 .container{
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  height: 25rem;
+  height: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  justify-content: space-evenly;
 }
 
 /* scroll div */
@@ -284,6 +291,7 @@ height: 20rem;
   color: white;
   margin: 0 auto;
   padding: 20px;
+  font-size: 30px;
 }
 
 .company-founded {
@@ -355,11 +363,10 @@ height: 20rem;
 }
 
 @media only screen and (orientation: portrait) {
-  .container{
+  .card-container{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
-    height: 35rem;
+   
   }
 }

@@ -68,8 +68,8 @@ const Services = () => {
           <h1 className='title'>Do you have an idea?</h1>
           <p className='paragraph-services'>Code-aire will make them a reality for you, motivation and passion aside we are also about attitude.<br />
             We don't think in terms of <em>If's</em> or <em>But</em>, instead we say <strong>can</strong> and <strong>will</strong>. We don't believe in <br />
-            doubting ourselves, therefore neither should our clients. If you have any projects or ideas you would like to bring our attention please fill out our <br />
-            contact form <Link href="/contact"><a style={{ color: "blue" }}>here</a></Link>
+            doubting ourselves, therefore neither should our clients. If you have any projects or ideas you would like to bring our attention for an estimate please fill out our <br />
+            contact form <Link href="/contact"><a style={{ color: "blue" }}>here</a></Link>.
           </p>
         </section>
 

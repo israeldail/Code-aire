@@ -365,13 +365,16 @@ height: 20rem;
 .codeaire-projects {
   height: 100%;
   width: 50%;
-  border: 1px solid white;
+  border: 5px solid white;
+  border-right: none;
+  border-bottom: none;
 }
 
 .exercise-projects {
   height: 100%;
   width: 50%;
-  border: 1px solid black;
+  border: 5px solid black;
+  border-bottom: none;
 }
 
 .proj-container {
@@ -382,8 +385,7 @@ height: 20rem;
 .codeaire-card {
   margin-top: 5%;
   margin-left: 5%;
-  margin-bottom: 5%;
-  margin: 0 auto;
+  margin-bottom: auto;
   height: 100%;
   width: 50%;
   border: 1px solid white;
@@ -441,5 +443,32 @@ height: 20rem;
     justify-content: space-between;
     flex-direction: row;
    
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .codeaire-projects {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .exercise-projects {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .codeaire-projects {
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+  }
+
+  .exercise-projects{
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
   }
 }

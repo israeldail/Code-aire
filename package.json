@@ -4,6 +4,7 @@
     "dotenv": "^16.0.3",
     "nodemailer": "^6.8.0",
     "react-draggable": "^4.4.5",
-    "reactjs-popup": "^2.0.5"
+    "reactjs-popup": "^2.0.5",
+    "typewriter-effect": "^2.19.0"
   }
 }

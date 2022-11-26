@@ -5,22 +5,35 @@ import Footer from '../component/footer'
 import styles from '../styles/Home.module.css'
 import Public from '../public/3.jpg'
 import Link from 'next/link'
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
   return (
     <div className='Home-page'>
-    
-     
-   
+
+
+
       <Head>
         <title>Code-aire | Homepage</title>
       </Head>
       <div>
         <section className='titlebox'>
-          <h1 className='title'>Code-aire</h1>
+          <h1 className='title'>Welcome to</h1>
+          <h1 className='title'>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString('Code-aire')
+                  .callFunction(() => {
+                    console.log('String typed out!');
+                  })
+                  .pauseFor(2500)
+                  .start();
+              }}
+            /></h1>
+
         </section>
-   
-     
+
+
         <section className='home-info'>
           <ul>
             <li className='Home-title'>Who We Are:</li>
@@ -31,10 +44,10 @@ export default function Home() {
       </div>
 
       <div className='button-main'>
-                <section>
-                  <Link href="/portfolio"><button className='button'> Visit Portfolio Page</button></Link>
-                </section>
-              </div> 
+        <section>
+          <Link href="/portfolio"><button className='button'> Visit Portfolio Page</button></Link>
+        </section>
+      </div>
     </div>
   )
 }

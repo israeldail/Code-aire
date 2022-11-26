@@ -38,7 +38,7 @@ const Contact = () => {
           <h1 className='title'>Contact Us</h1>
         </section>
 
-        <div style={{color: "red"}} className="alert alert-info title" role="alert">
+        <div  className="alert alert-info title-alert" role="alert">
   Contact Page Under Maintenance. Please email info@codeaire.com for now.
 </div>
         <div className="contact-page">

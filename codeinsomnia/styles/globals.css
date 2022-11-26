@@ -81,6 +81,19 @@ nav .logo {
   color: #ddd;
 }
 
+.title-alert {
+  text-align: center;
+  font-size: 60px;
+  color: black;
+  width: 80%;
+  height: 80%;
+  border: 1px solid #ADD8E6;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  background-color: #ADD8E6;
+  border-radius: 1rem;
+}
+
 /* service page */
 
 .html-stack {

@@ -2,13 +2,15 @@ import Navbar from '../component/navbar'
 import Footer from '../component/footer'
 import { ScrollTop } from './scrollto'
 
-const Layout = ({children}) => {
-    return(
+const Layout = ({ children }) => {
+    return (
         <div className="content">
-            <Navbar/>
-                {children}
-                <ScrollTop/>
-            <Footer/>
+
+            <Navbar />
+            {children}
+            <ScrollTop />
+            <Footer />
+
         </div>
     )
 }

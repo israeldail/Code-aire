@@ -314,6 +314,8 @@ height: 20rem;
   -ms-animation: fadeIn 5s;
 }
 
+
+
 @-moz-keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -340,6 +342,64 @@ height: 20rem;
 }
 
 
+/* portfolio section */
+
+.projects-container {
+  display:flex;
+  flex-direction: row;
+}
+
+.codeaire-projects {
+  height: 100%;
+  width: 50%;
+  border: 1px solid white;
+}
+
+.exercise-projects {
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.proj-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.codeaire-card {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin: 0 auto;
+  height: 100%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 5%;
+}
+
+.exercise-card {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: auto;
+  height: 100%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 5%;
+}
+
+.card-title {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+
+.card-title a {
+  color: white;
+}
+
+.card-title a:hover {
+  opacity: 0.2;
+}
 
 
 @media only screen and (orientation: landscape) {

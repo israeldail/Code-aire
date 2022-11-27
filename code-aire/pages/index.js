@@ -1,9 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Navbar from '../component/navbar'
-import Footer from '../component/footer'
-import styles from '../styles/Home.module.css'
-import Public from '../public/3.jpg'
 import Link from 'next/link'
 import Typewriter from 'typewriter-effect';
 

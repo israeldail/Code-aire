@@ -23,21 +23,21 @@ const About = () => {
             <h2>Austan Augustin</h2>
             <p>CEO & Founder</p>
             <p>An ambitious mind coupled with a charismatic personality</p>
-            <Popup trigger={<button className='button'>Contact</button>} position="bottom">
+            {/* <Popup trigger={<button className='button'>Contact</button>} position="bottom">
               <div className='contact-popup'>
                 email: austan.augustin1@gmail.com
               </div>
-            </Popup>
+            </Popup> */}
           </div>
           <div className='name-1'>
             <h2>Israel Dail</h2>
             <p>CTO & Founder</p>
             <p>Analytical-minded with a hint of motivated curiosity</p>
-            <Popup trigger={<button className='button'>Contact</button>} position="bottom">
+            {/* <Popup trigger={<button className='button'>Contact</button>} position="bottom">
               <div className='contact-popup'>
                 email: israeldail2@gmail.com
               </div>
-            </Popup>
+            </Popup> */}
           </div>
         </section>
 

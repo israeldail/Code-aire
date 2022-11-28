@@ -20,16 +20,19 @@ const Services = () => {
               src={'/html.png'}
               width={500}
               height={500}
+              alt="html"
             />
             <Image
               src={'/java-script.png'}
               width={500}
               height={500}
+              alt="javascript"
             />
             <Image
               src={'/css-logo.png'}
               width={500}
               height={500}
+              alt="css"
             />
           </div>
         </section>
@@ -40,12 +43,14 @@ const Services = () => {
               src={"/react-native-logo.png"}
               height={500}
               width={500}
+              alt="react"
             />
 
             <Image
               src={"/python-logo.png"}
               height={500}
               width={500}
+              alt="python"
             />
 
           </div>

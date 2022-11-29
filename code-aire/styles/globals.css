@@ -441,8 +441,18 @@ height: 20rem;
   .card-container{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
    
+  }
+
+  .name-1 {
+    width: 100%;
+
+  }
+
+  .name-2 {
+    width: 100%;
+    margin-bottom: 5%;
   }
 }
 
@@ -471,4 +481,29 @@ height: 20rem;
     border-left: 5px solid black;
     border-bottom: 5px solid black;
   }
+
+  .title-alert{
+    width: 100%;
+  }
+
+  .contact-input{
+    width: 100%;
+  }
+
+  .textarea {
+    width: 100%;
+  }
+
+  .home-info {
+    height: 100%;
+    transform: none;
+    opacity: 1;
+    transition: none;
+    width: 85%;
+  }
+
+  .navbar {
+    font-size: medium;
+  }
+
 }

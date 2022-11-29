@@ -506,4 +506,10 @@ height: 20rem;
     font-size: medium;
   }
 
+  .logo {
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
 }
